@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="..\..\scls-graphic-benoit\src\scls_graphic_gui_object.cpp" open="1" top="1" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="28286" topLine="210" />
+		</Cursor>
+		<Folding>
+			<Collapse line="28" />
+			<Collapse line="85" />
+			<Collapse line="104" />
+			<Collapse line="144" />
+			<Collapse line="171" />
+			<Collapse line="215" />
+			<Collapse line="233" />
+			<Collapse line="292" />
+			<Collapse line="371" />
+			<Collapse line="439" />
+			<Collapse line="496" />
+			<Collapse line="513" />
+			<Collapse line="550" />
+			<Collapse line="558" />
+			<Collapse line="577" />
+		</Folding>
+	</File>
+	<File name="..\..\scls-graphic-benoit\src\scls_graphic_window_advanced_struct.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2088" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="headers\pleos_stack_rpn.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="668" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="sources\main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="329" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\scls-graphic-benoit\src\scls_graphic_gui_base.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3681" topLine="63" />
+		</Cursor>
+		<Folding>
+			<Collapse line="31" />
+			<Collapse line="53" />
+			<Collapse line="82" />
+			<Collapse line="96" />
+			<Collapse line="106" />
+			<Collapse line="125" />
+			<Collapse line="143" />
+			<Collapse line="158" />
+			<Collapse line="183" />
+			<Collapse line="214" />
+			<Collapse line="230" />
+			<Collapse line="246" />
+			<Collapse line="254" />
+			<Collapse line="268" />
+			<Collapse line="275" />
+			<Collapse line="284" />
+			<Collapse line="291" />
+			<Collapse line="298" />
+			<Collapse line="314" />
+			<Collapse line="323" />
+		</Folding>
+	</File>
+	<File name="..\..\scls-graphic-benoit\headers\scls_graphic_gui_object.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7535" topLine="144" />
+		</Cursor>
+		<Folding>
+			<Collapse line="34" />
+			<Collapse line="41" />
+			<Collapse line="191" />
+			<Collapse line="195" />
+			<Collapse line="275" />
+			<Collapse line="305" />
+			<Collapse line="367" />
+			<Collapse line="419" />
+			<Collapse line="501" />
+			<Collapse line="550" />
+			<Collapse line="655" />
+			<Collapse line="748" />
+			<Collapse line="815" />
+			<Collapse line="839" />
+		</Folding>
+	</File>
+	<File name="..\..\scls-graphic-benoit\headers\scls_graphic_gl_part.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8345" topLine="57" />
+		</Cursor>
+		<Folding>
+			<Collapse line="77" />
+			<Collapse line="83" />
+			<Collapse line="89" />
+			<Collapse line="128" />
+			<Collapse line="160" />
+			<Collapse line="183" />
+			<Collapse line="232" />
+			<Collapse line="243" />
+		</Folding>
+	</File>
+	<File name="sources\pleos_stack_rpn.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="427" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\scls-graphic-benoit\src\scls_graphic_gl_part.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19812" topLine="400" />
+		</Cursor>
+		<Folding>
+			<Collapse line="26" />
+			<Collapse line="42" />
+			<Collapse line="47" />
+			<Collapse line="52" />
+			<Collapse line="113" />
+			<Collapse line="120" />
+		</Folding>
+	</File>
+	<File name="..\..\scls-graphic-benoit\src\scls_graphic_window.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3920" topLine="216" />
+		</Cursor>
+	</File>
+	<File name="..\..\scls-graphic-benoit\headers\scls_graphic_gui_base.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8564" topLine="250" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

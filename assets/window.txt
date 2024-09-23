@@ -1,0 +1,7 @@
+// Load the needed textures
+<texture name="stack_rpn_page_title" src="plugins/assets_stack_rpn/images/title.png">
+
+// Load the needed pages
+<page_2d name="stack_rpn_page" displayed>
+	<content src="plugins/assets_stack_rpn/gui_content.txt" sub_paged>
+</page_2d>

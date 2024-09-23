@@ -1,0 +1,178 @@
+# depslib dependency file v1.0
+1710190358 source:j:\projets\astersysteme\scls-graphic-benoit\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1727034328 source:j:\projets\astersysteme\scls-graphic-benoit\src\scls_graphic_gl_part.cpp
+	"../headers/scls_graphic_gl_part.h"
+
+1727066545 j:\projets\astersysteme\scls-graphic-benoit\headers\scls_graphic_gl_part.h
+	"../headers/scls_graphic_window_base_struct.h"
+
+1723374515 j:\projets\astersysteme\scls-graphic-benoit\headers\scls_graphic_window_base_struct.h
+	"../../scls-image-michelangelo/scls_image.h"
+	<scls_image.h>
+	<algorithm>
+	<atomic>
+	<cstdint>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<map>
+	<random>
+	<memory>
+	<string>
+	<sstream>
+	<thread>
+	<utility>
+	<vector>
+
+1722266721 j:\projets\astersysteme\scls-image-michelangelo\scls_image.h
+	"../scls-math-carl/scls_math.h"
+	<scls_math.h>
+	"scls_image_directory/scls_image_core.h"
+	"scls_image_directory/scls_image_fractal.h"
+	"scls_image_directory/scls_image_text.h"
+	"scls_image_directory/scls_image_type.h"
+
+1726230659 j:\projets\astersysteme\scls-math-carl\scls_math.h
+	"../scls-foundation-leonhard/scls_foundation.h"
+	<scls_foundation.h>
+	<algorithm>
+	"scls_math_directory/scls_math_complex.h"
+	"scls_math_directory/scls_math_fraction.h"
+	"scls_math_directory/scls_math_polymonial.h"
+	"scls_math_directory/scls_math_3d_core.h"
+	"scls_math_directory/scls_math_3d_model.h"
+
+1725900094 j:\projets\astersysteme\scls-foundation-leonhard\scls_foundation.h
+	"scls_foundation_directory/scls_foundation_binary.h"
+	"scls_foundation_directory/scls_foundation_core.h"
+	"scls_foundation_directory/scls_foundation_compression.h"
+	"scls_foundation_directory/scls_foundation_file.h"
+	"scls_foundation_directory/scls_foundation_math.h"
+	"scls_foundation_directory/scls_foundation_string.h"
+
+1723482625 j:\projets\astersysteme\scls-foundation-leonhard\scls_foundation_directory\scls_foundation_binary.h
+	<map>
+	"scls_foundation_core.h"
+	"scls_foundation_math.h"
+
+1725900328 j:\projets\astersysteme\scls-foundation-leonhard\scls_foundation_directory\scls_foundation_core.h
+	<algorithm>
+	<cstdint>
+	<cstdio>
+	<filesystem>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+	<stack>
+	<string>
+	<sys/time.h>
+	<vector>
+	<windows.h>
+
+1722266791 j:\projets\astersysteme\scls-foundation-leonhard\scls_foundation_directory\scls_foundation_math.h
+	"scls_foundation_string.h"
+
+1723659583 j:\projets\astersysteme\scls-foundation-leonhard\scls_foundation_directory\scls_foundation_string.h
+	"scls_foundation_binary.h"
+
+1722264939 j:\projets\astersysteme\scls-foundation-leonhard\scls_foundation_directory\scls_foundation_compression.h
+	"scls_foundation_binary.h"
+
+1722264939 j:\projets\astersysteme\scls-foundation-leonhard\scls_foundation_directory\scls_foundation_file.h
+	"scls_foundation_binary.h"
+	"scls_foundation_string.h"
+
+1726420342 j:\projets\astersysteme\scls-math-carl\scls_math_directory\scls_math_complex.h
+	"scls_math_fraction.h"
+
+1726230659 j:\projets\astersysteme\scls-math-carl\scls_math_directory\scls_math_fraction.h
+
+1726420389 j:\projets\astersysteme\scls-math-carl\scls_math_directory\scls_math_polymonial.h
+	"scls_math_fraction.h"
+
+1724432310 j:\projets\astersysteme\scls-math-carl\scls_math_directory\scls_math_3d_core.h
+
+1726498557 j:\projets\astersysteme\scls-math-carl\scls_math_directory\scls_math_3d_model.h
+	"scls_math_3d_core.h"
+
+1724928884 j:\projets\astersysteme\scls-image-michelangelo\scls_image_directory\scls_image_core.h
+	<ft2build.h>
+	<map>
+	<math.h>
+	<memory>
+	<stack>
+	<thread>
+	<zlib/zlib.h>
+	<fcntl.h>
+	<io.h>
+
+1722264826 j:\projets\astersysteme\scls-image-michelangelo\scls_image_directory\scls_image_fractal.h
+	"scls_image_core.h"
+
+1722264826 j:\projets\astersysteme\scls-image-michelangelo\scls_image_directory\scls_image_text.h
+
+1722264826 j:\projets\astersysteme\scls-image-michelangelo\scls_image_directory\scls_image_type.h
+	"scls_image_core.h"
+
+1727066721 source:j:\projets\astersysteme\scls-graphic-benoit\src\scls_graphic_gui_object.cpp
+	"../headers/scls_graphic_gui_object.h"
+
+1727014481 j:\projets\astersysteme\scls-graphic-benoit\headers\scls_graphic_gui_object.h
+	"scls_graphic_gui_base.h"
+
+1726497840 j:\projets\astersysteme\scls-graphic-benoit\headers\scls_graphic_object.h
+	"scls_graphic_window_advanced_struct.h"
+
+1726497782 j:\projets\astersysteme\scls-graphic-benoit\headers\scls_graphic_window_advanced_struct.h
+	"scls_graphic_window_base_struct.h"
+	"scls_graphic_gl_part.h"
+
+1726497865 source:j:\projets\astersysteme\scls-graphic-benoit\src\scls_graphic_object.cpp
+	"../headers/scls_graphic_object.h"
+
+1726499137 source:j:\projets\astersysteme\scls-graphic-benoit\src\scls_graphic_window.cpp
+	"../headers/scls_graphic_window.h"
+
+1723137744 j:\projets\astersysteme\scls-graphic-benoit\headers\scls_graphic_window.h
+	"scls_graphic_gui_object.h"
+	<stack>
+
+1726497903 source:j:\projets\astersysteme\scls-graphic-benoit\src\scls_graphic_window_advanced_struct.cpp
+	"../headers/scls_graphic_window_advanced_struct.h"
+
+1715719520 source:j:\projets\astersysteme\scls-graphic-benoit\src\scls_graphic_window_base_struct.cpp
+	"../headers/scls_graphic_window_base_struct.h"
+
+1726999266 source:j:\projets\astersysteme\pleos\pleos-stack-rpn\sources\pleos_stack_rpn.cpp
+	"../headers/pleos_stack_rpn.h"
+
+1726935688 source:j:\projets\astersysteme\pleos\pleos-stack-rpn\sources\main.cpp
+	"../headers/pleos_stack_rpn.h"
+
+1727000920 j:\projets\astersysteme\pleos\pleos-stack-rpn\headers\pleos_stack_rpn.h
+	"../../../scls-graphic-benoit/scls_graphic.h"
+
+1722329479 j:\projets\astersysteme\scls-graphic-benoit\scls_graphic.h
+	"headers/scls_graphic_window.h"
+
+1727033502 j:\projets\astersysteme\scls-graphic-benoit\headers\scls_graphic_gui_base.h
+	"scls_graphic_object.h"
+	"scls_graphic_window_advanced_struct.h"
+
+1727033502 source:j:\projets\astersysteme\scls-graphic-benoit\src\scls_graphic_gui_base.cpp
+	"../headers/scls_graphic_gui_base.h"
+

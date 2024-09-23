@@ -1,0 +1,33 @@
+//***************************************************
+//
+//   HOME
+//
+//*************************************************** 
+
+<gui_object name="stack_rpn" type="object" visible>
+	<border bottom=1 left=1 right=1 top=1>
+	<height value=1 type=scale>
+	<width value=1 type=scale>
+	<x value=0 type=scale>
+	<y value=0 type=scale>
+</gui_object>
+
+// GUI elements
+<gui_object name="stack_rpn_stack" type="stack">
+	<background_color red=29 green=21 blue=46>
+	<border bottom=1 left=1 right=1 top=1>
+	<height value=1 type=scale>
+	<parent name="stack_rpn">
+	<width value=1/4 type=scale>
+	<x attach=left>
+	<y attach=bottom>
+</gui_object>
+<gui_object name="stack_rpn_title" type="object">
+	<background_color red=0 green=0 blue=0 alpha=0>
+	<height value=1/5 type=scale>
+	<parent name="stack_rpn">
+	<texture name="stack_rpn_page_title" alignment=fit alignment_vertical=top>
+	<width value=3/4 type=scale>
+	<x attach=right attached_object="stack_rpn_stack">
+	<y attach=top>
+</gui_object>
