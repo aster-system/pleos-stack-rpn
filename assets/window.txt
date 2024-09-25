@@ -1,4 +1,9 @@
 // Load the needed textures
+<texture name="stack_rpn_page_button_background" src="plugins/assets_stack_rpn/images/button_background.png">
+<texture name="stack_rpn_page_button_finish" src="plugins/assets_stack_rpn/images/button_finish.png">
+<texture name="stack_rpn_page_button_next" src="plugins/assets_stack_rpn/images/button_next.png">
+<texture name="stack_rpn_page_button_start" src="plugins/assets_stack_rpn/images/button_start.png">
+<texture name="stack_rpn_page_input_title" src="plugins/assets_stack_rpn/images/title_input.png">
 <texture name="stack_rpn_page_title" src="plugins/assets_stack_rpn/images/title.png">
 
 // Load the needed pages

@@ -26,8 +26,60 @@
 	<background_color red=0 green=0 blue=0 alpha=0>
 	<height value=1/5 type=scale>
 	<parent name="stack_rpn">
-	<texture name="stack_rpn_page_title" alignment=fit alignment_vertical=top>
+	<texture name="stack_rpn_page_title" alignment=fit alignment_horizontal=left alignment_vertical=top>
 	<width value=3/4 type=scale>
 	<x attach=right attached_object="stack_rpn_stack">
 	<y attach=top>
+</gui_object>
+<gui_object name="stack_rpn_input_title" type="object">
+	<background_color red=0 green=0 blue=0 alpha=0>
+	<height value=1/8 type=scale>
+	<parent name="stack_rpn">
+	<texture name="stack_rpn_page_input_title" alignment=fit alignment_horizontal=left alignment_vertical=top>
+	<width value=3/4 type=scale>
+	<x attach=right attached_object="stack_rpn_stack">
+	<y attach=bottom attached_object="stack_rpn_title" offset=15>
+</gui_object>
+<gui_object name="stack_rpn_input" type="text_input">
+	<background_color red=0 green=0 blue=0 alpha=255>
+	<height value=1/9 type=scale>
+	<parent name="stack_rpn">
+	<text_style color=(255,255,255) font_size=24>
+	<width value=3/5 type=scale>
+	<x attach=right attached_object="stack_rpn_stack">
+	<y attach=bottom attached_object="stack_rpn_input_title" offset=15>
+</gui_object>
+<gui_object name="stack_rpn_animation_window" type="object">
+	<background_color red=0 green=0 blue=0 alpha=255>
+	<height value=1/3 type=scale>
+	<parent name="stack_rpn">
+	<width value=3/5 type=scale>
+	<x attach=right attached_object="stack_rpn_stack">
+	<y attach=bottom attached_object="stack_rpn_input" offset=15>
+</gui_object>
+<gui_object name="stack_rpn_more_informations" type="object">
+	<background_color red=0 green=0 blue=0 alpha=0>
+	<height value=1/12 type=scale>
+	<parent name="stack_rpn">
+	<texture name="stack_rpn_page_button_background" alignment=fit alignment_horizontal=right alignment_vertical=bottom>
+	<width value=1/3 type=scale>
+	<x attach=right>
+	<y attach=bottom>
+
+	<when event="overflighted">
+		<cursor type=pointing_hand_cursor>
+	</when>
+</gui_object>
+<gui_object name="stack_rpn_next" type="object">
+	<background_color red=0 green=0 blue=0 alpha=0>
+	<height value=1/12 type=scale>
+	<parent name="stack_rpn">
+	<texture name="stack_rpn_page_button_start" alignment=fit alignment_horizontal=right alignment_vertical=bottom>
+	<width value=1/3 type=scale>
+	<x attach=right attached_object="stack_rpn_stack">
+	<y attach=bottom>
+
+	<when event="overflighted">
+		<cursor type=pointing_hand_cursor>
+	</when>
 </gui_object>

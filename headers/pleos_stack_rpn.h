@@ -46,11 +46,88 @@ namespace pleos {
         // Class representating the stack RPN page for PLEOS
     public:
 
+        // Current possible state of the animation
+        enum Animation_State {AS_Off, AS_Started, AS_Terminated};
+
         // Stack_RPN_Page constructor
         Stack_RPN_Page(scls::_Window_Advanced_Struct* window_struct, std::string name);
+        // Loads an object in a page from XML
+        virtual std::shared_ptr<scls::GUI_Object> __create_loaded_object_from_type(std::string object_name, std::string object_type, scls::GUI_Object* parent);
+
+        // Update the events in the page
+        virtual void update_event();
+
+        // Analyse the needed next character
+        void analyse_next_character();
+        // Place the analysed text GUI
+        void place_analysed_text();
+        // Setup the animation window
+        void setup_animation_window();
+        // Unload the animation window
+        inline void unload_animation_window() {
+            a_main_animation_explaination.reset();
+            a_main_animation_text.reset();
+            a_main_animation_title.reset();
+            if(a_stack_rpn_next_button.get() != 0)a_stack_rpn_next_button.get()->set_texture("stack_rpn_page_button_start", false);
+            a_text_analysed_gui.clear();
+            if(a_stack_rpn_animation_window.get() != 0)a_stack_rpn_animation_window.get()->delete_children();
+            if(a_stack_rpn_stack.get() != 0)a_stack_rpn_stack.get()->reset();
+            text_analysed().clear();
+            text_to_analyse().clear();
+        };
+
+        // Returns the current animation text
+        inline std::string current_animation_text() const {
+            std::string text = ""; const std::vector<std::string>& text_input = a_current_state.text_to_analyse;
+            for(int i = 0;i<static_cast<int>(text_input.size());i++) {text += text_input[i];text += " ";}
+            while(text[text.size() - 1] == ' ') text = text.substr(0, text.size() - 1);
+            return text;
+        };
+        // Returns the input in the page
+        inline std::string input() const {if(a_stack_rpn_input.get() == 0)return "";return a_stack_rpn_input.get()->text();};
+
+        // Getters and setters
+        inline unsigned int analyse_number() const {return a_current_state.analyse_number;};
+        inline Animation_State current_animation_state() const {return a_current_state.current_animation_state;};
+        inline std::vector<double>& text_analysed() {return a_current_state.text_analysed;};
+        inline std::vector<std::string>& text_to_analyse() {return a_current_state.text_to_analyse;};
 
     private:
 
+        // Avaible operator in the software
+        const std::map<std::string, unsigned char> a_avaible_operator{{"+", 2}, {"-", 2}, {"*", 2}, {"/", 2}, {"sqrt", 1}};
+
+        // State of the page
+        struct {
+            // Current state of the animation
+            Animation_State current_animation_state = AS_Off;
+
+            // Number of made analyse
+            unsigned int analyse_number = 0;
+            // Text analysed
+            std::vector<double> text_analysed;
+            // Text to analyse
+            std::vector<std::string> text_to_analyse;
+        } a_current_state;
+
+        // GUI stuff
+
+        // Animation explaination
+        std::shared_ptr<scls::GUI_Text> a_main_animation_explaination;
+        // Animation text
+        std::shared_ptr<scls::GUI_Text> a_main_animation_text;
+        // Animation title
+        std::shared_ptr<scls::GUI_Text> a_main_animation_title;
+        // Animation window
+        std::shared_ptr<scls::GUI_Object> a_stack_rpn_animation_window;
+        // Input of the text
+        std::shared_ptr<scls::GUI_Text_Input> a_stack_rpn_input;
+        // Next button
+        std::shared_ptr<scls::GUI_Object> a_stack_rpn_next_button;
+        // Stack at the left of the page
+        std::shared_ptr<scls::GUI_Scroller> a_stack_rpn_stack;
+        // Text analysed GUI elements
+        std::vector<std::shared_ptr<scls::GUI_Text>> a_text_analysed_gui;
     };
 
     //******************
